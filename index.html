@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEARCH BAR</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            min-height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .search{
+            display: flex;
+            align-items: center;
+            width: 400px;
+            height: 50px;
+            border: 2px solid rebeccapurple;
+            border-radius: 100px;
+            overflow: hidden;
+        }
+        .search input{
+            width: 100%;
+            padding: 10px 20px;
+            height: 100%;
+        }
+        .search button{
+            height: 100%;
+            min-width: 100px;
+            background-color: purple;
+            color: white;
+            font-weight: 600;
+        }
+        .search input ,.search button{
+            outline: none;
+            border: none;
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <form class="search">
+        <input name="query" type="search" placeholder="search">
+        <button>search</button>
+
+    </form>
+</body>
+</html>
